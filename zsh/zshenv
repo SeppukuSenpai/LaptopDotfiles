@@ -1,0 +1,28 @@
+# PATH
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# PATH Appends
+path+=("/usr/bin/ruby")
+path+=("/usr/sbin/git")
+path+=("usr/lib/ruby/gems/2.6.0")
+path+=("~/.gem/ruby/2.6.0")
+path+=("/usr/bin/python")
+path+=("/usr/bin/python2")
+path+=("/usr/sbin/node")
+path+=("/usr/sbin/npm")
+
+## Exports
+# (App Environments)
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_USER_CONFIG_DIR="$HOME/.config"
+export QT_QPA_PLATFORMTHEME=qt5ct
+#export GIT_DIR="$HOME/.git"
+export ERRFILE="$HOME/.errors"
+# (Zsh Specific)
+export ZDOTDIR="$HOME/.zsh"
+export HISTFILE="$HOME/.histfiles/zsh_history"
+export HISTSIZE=100
+export ZSH="$HOME/.zsh/.oh-my-zsh"
+# (Prefered Applications)
+export EDITOR="nvim"
+export TERM="xterm-256color"
+export BROWSER="firefox"

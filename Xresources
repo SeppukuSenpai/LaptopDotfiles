@@ -1,0 +1,33 @@
+! Xft Settings {{{
+Xft.dpi: 70
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft*autohint:  false
+Xft.hintstyle: hintfull
+Xft*lcdfilter: lcddefault
+! }}}
+
+! Polybar Colors {{{
+* background:     #000b1e
+* date_fg:        #13A8FE
+* date_ul:        #13A8FE
+* focused_fg:     #ea00d9
+* focused_ul:     #ea00d9
+* occupied_fg:    #711c91
+* occupied_ul:    #711c91
+* wireless_fg:    #8600ea
+* wireless_ul:    #8600ea
+* wired_fg:       #8600ea
+* wired_ul:       #8600ea
+* charging_fg:    #ea0064
+* charging_ul:    #ea0064
+* discharging_fg: #ea0064
+* discharging_ul: #ea0064
+* volume_fg:      #d7d7d5
+* volume_ul:      #d7d7d5
+* mute_fg:        #d7d7d5
+* mute_ul:        #d7d7d5
+* weather_fg:     #ea00d9
+* weather_ul:     #ea00d9
+! }}}

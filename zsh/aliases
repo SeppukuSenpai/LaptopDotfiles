@@ -1,0 +1,47 @@
+# Quality of Life
+alias la='ls -a'
+alias cfg='cd $HOME/.config'
+alias aurbuild='cd $HOME/.cache/pikaur/build'
+alias vi='nvim'
+alias vim='nvim'
+alias locate='sudo updatedb && locate'
+
+# Pac Commands
+alias install='pikaur -S'
+alias uninstall='pikaur -Rsn'
+alias installed='pacman -Q'
+alias search='pikaur -Ss'
+alias update='pikaur -Syu'
+alias aurinstalled='pacman -Qm'
+alias pkginfo='pacman -Qi'
+
+# Python Commands
+alias pylist='pip freeze'
+alias pyupdate='~/.config/scripts/polyScripts/update-pip.sh'
+
+<<<<<<< HEAD
+=======
+## Python Enviroment Specifics
+# PyQt5 pyuic5
+alias pyui="/usr/sbin/pyuic5"
+
+
+>>>>>>> 	new file:   Xresources
+# Color Output
+alias diff='colordiff'
+alias grep='grep --color=auto'
+# Less Color Output
+export LESS=-R
+export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
+export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
+export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
+export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
+export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
+export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
+export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
+# less source highlight (requires *source-highlight*)
+export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
+export LESS='-R '
+# Misc
+alias mkexe='sudo chmod +x'
+alias connect='wicd-curses'
