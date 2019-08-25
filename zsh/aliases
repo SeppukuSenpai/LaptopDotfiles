@@ -19,14 +19,10 @@ alias pkginfo='pacman -Qi'
 alias pylist='pip freeze'
 alias pyupdate='~/.config/scripts/polyScripts/update-pip.sh'
 
-<<<<<<< HEAD
-=======
 ## Python Enviroment Specifics
 # PyQt5 pyuic5
 alias pyui="/usr/sbin/pyuic5"
 
-
->>>>>>> 	new file:   Xresources
 # Color Output
 alias diff='colordiff'
 alias grep='grep --color=auto'
