@@ -66,7 +66,7 @@ set backspace=indent,eol,start
 syntax enable
 set t_Co=256
 colorscheme gruvbox
-set scrolloff=8
+set scrolloff=4
 set nu
 set cursorline
 set background=dark

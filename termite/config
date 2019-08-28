@@ -8,7 +8,7 @@ allow_bold = true
 dynamic_title = true
 clickable_url = true
 fullscreen = false
-scrollback_lines = 1000
+scrollback_lines = 10000
 search_wrap = true
 
 # 'system', 'on' or 'off'

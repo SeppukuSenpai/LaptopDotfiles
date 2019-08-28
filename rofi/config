@@ -1,0 +1,21 @@
+rofi.color-enabled: true
+
+rofi.color-window: argb:cc252936, #2BC1A4, #2BC1A4
+
+rofi.color-normal: argb:00252936, #ffffff, argb:00252936, argb:009575cd, #2BC1A4
+rofi.color-active: argb:00252936, #252936, argb:00252936, argb:009575cd, #ffc000
+rofi.color-urgent: argb:00252936, #ff0000, argb:00252936, argb:00252936, #ff0000
+
+rofi.width: 60
+rofi.padding: 10
+rofi.opacity: 80
+rofi.bw: 1px
+
+rofi.lines: 10
+rofi.columns: 4
+rofi.separator-style: solid
+
+rofi.dpi: 0
+rofi.show-icons: true
+rofi.hide-scrollbar: true
+rofi.font: mononoki Nerd Font 10
