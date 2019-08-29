@@ -7,7 +7,7 @@ xsetroot -cursor_name left_ptr
 # key bindings
 sxhkd &
 # wallpaper
-feh --no-fehbg --bg-scale ~/Pictures/Wallpapers/wallpaper1.jpg &
+feh --no-fehbg --bg-scale ~/Pictures/Wallpapers/PixelArt.jpg &
 # panel
 exec ~/.config/polybar/launch.sh &
 # start redshift
